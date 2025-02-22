@@ -18,6 +18,9 @@ for (let i = 0; i < givenArray.length; i++) {
         countOfNegatives++;
     }
 }
+document.write(`amount of positives: ${countOfPositives}, 
+                amount of negatives: ${countOfNegatives},
+                sum of positives: ${sumOfPositives}.`);
 
 
 // Знайти мінімальний (найменший) елемент масива і його індекс.
@@ -38,6 +41,9 @@ for (let i = 0; i < givenArray.length; i++) {
 
 let minIndex = givenArray.indexOf(minNum);
 let maxIndex = givenArray.indexOf(maxNum);
+
+document.write(`<p> minimum element: ${minNum} and its index: ${minIndex},
+                maximum element: ${maxNum} and its index: ${maxIndex}. <p/>`);
 
 
 // Знайти кількість непарних додатних елементів. Знайти суму непарних додатних елементів.
@@ -60,6 +66,9 @@ for (let i = 0; i < givenArray.length; i++) {
     }
 }
 
+document.write(`<p> amount of odd positives: ${oddPositives} and their sum: ${sumOddPositives},
+                amount of even positives: ${evenPositives} and their sum: ${sumEvenPositives}. <p/>`);
+
 
 // Знайти добуток всіх додатних елементів.
 
@@ -71,6 +80,8 @@ for (let i = 0; i < givenArray.length; i++) {
     }
 }
 
+document.write(`<p> product of positives: ${productOfPositives}. <p/>`);
+
 
 // Змінити на 0 всі елементи масива окрім найбільшого.
 
@@ -79,3 +90,5 @@ for (let i = 0; i < givenArray.length; i++) {
         givenArray[i] = 0;
     }
 }
+
+document.write(`array with all '0' elements except maximal one: ${givenArray}.`);
