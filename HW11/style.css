@@ -1,0 +1,55 @@
+p {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(79, 132, 232);
+}
+
+.table {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+}
+
+.cell {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.cell-head {
+    background-color: #d5d1d1;
+}
+
+.picture {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.blue {
+    color: cornflowerblue;
+}
