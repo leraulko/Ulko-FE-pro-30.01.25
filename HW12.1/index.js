@@ -11,5 +11,9 @@ document.querySelector('.button-prompt').addEventListener('click', () => {
 });
 
 document.querySelector('.button-redirect').addEventListener('click', () => {
-    location.href = userLink;
+    if (userLink) {
+        location.href = userLink;        
+    } else {
+        alert('You did not enter a link!')
+    }
 });
