@@ -1,0 +1,18 @@
+.hidden {
+    display: none;
+}
+
+.container h2 {
+    margin-left: 30px;
+}
+
+.container div {
+    margin: 10px 30px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid hotpink;
+}

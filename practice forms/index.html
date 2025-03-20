@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Practice Forms</title>
+</head>
+<body>
+    <div class="container">
+        <form name="registrationForm">
+            <p>
+                <input type="text" name="firstName" placeholder="First Name">
+                <input type="text" name="lastName" placeholder="Last Name">
+            </p>
+            <p>
+                <input type="date" name="dateOfBirth">
+            </p>
+            <p>
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Male"> Male
+            </p>
+            <select name="city">
+                <option value="">Select your city</option>
+                <option value="Kyiv">Kyiv</option>
+                <option value="Odesa">Odesa</option>
+                <option value="Lviv">Lviv</option>
+                <option value="Kharkiv">Kharkiv</option>
+            </select>
+            <p>
+                <textarea name="address" cols="35" rows="1" placeholder="Enter your address"></textarea>
+            </p>
+            <p>
+                <input type="checkbox" name="lang" value="UA"> Ukrainian <br>
+                <input type="checkbox" name="lang" value="EN"> English <br>
+                <input type="checkbox" name="lang" value="IT"> Italian <br>
+                <input type="checkbox" name="lang" value="ES"> Spanish <br>
+            </p>
+            <button type="button">Save</button>
+        </form>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
