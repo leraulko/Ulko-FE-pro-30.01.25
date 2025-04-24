@@ -1,0 +1,11 @@
+#liveAlertPlaceholder {
+    position: absolute;
+}
+
+.container2 {
+    margin: 80px;
+}
+
+#birthDateInput, .converted{
+    max-width: max-content;
+}

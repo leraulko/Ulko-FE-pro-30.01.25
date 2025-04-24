@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Practice npm</title>
+</head>
+<body>
+    <div class="container">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Primary</button>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nemo nulla maxime, corporis sed tenetur, voluptate minus exercitationem dolore vitae corrupti facilis fuga quisquam voluptatem natus itaque consectetur architecto repudiandae!
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-info" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Tooltip on bottom">
+            Info
+        </button>
+
+        <div id="liveAlertPlaceholder"></div>
+        <button type="button" class="btn btn-danger">Danger</button>
+    </div>
+
+    <div class="container2">
+        <label for="birthDateInput" class="form-label">Enter your date of Birth (DD/MM/YYYY):</label>
+        <input type="text" class="form-control" id="birthDateInput" required>
+        <button class="btn btn-primary mt-2" id="convertBtn">Convert</button>
+        <p class="converted mt-3"></p>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/moment/moment.js"></script>
+    <script src="./scripts/bootstrapFile.js"></script>
+    <script src="./scripts/momentFile.js"></script>
+</body>
+</html>
