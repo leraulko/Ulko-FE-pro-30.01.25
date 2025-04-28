@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(./pics/Star_Wars_Logo.svg.png);
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    background-size: cover;
+}
+
+.container {
+    width: max-content;
+    height: max-content;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: white;
+    display: flex;
+    gap: 20px;
+}
+
+select, button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color:black;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+select:hover, button:hover {
+    opacity: 0.8;
+}
+
+.content {
+    background-color:aliceblue;
+    max-width: 400px;
+    height: 120px;
+    max-height: max-content;
+    margin: 50px auto;
+    padding: 10px;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    align-items: center;
+}
+
+.showedInfo {
+    width: fit-content;
+}
+
+.showedInfo:hover {
+    cursor: pointer;
+    color: rgb(158, 158, 63);
+}
+
+.pagination {
+    display: none;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+li {
+    overflow-wrap: break-word;
+    max-width: 400px;
+}
