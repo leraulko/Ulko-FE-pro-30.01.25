@@ -1,0 +1,80 @@
+$color-background: whitesmoke;
+$color-primary: deeppink;
+$color-secondary: darkgray;
+$color-button: #23A3FF;
+$color-button-text: white;
+$color-error: red;
+
+$border-radius-small: 10px;
+$border-radius-large: 20px;
+
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container {
+  width: 500px;
+  height: fit-content;
+  margin: 30px auto 10px auto;
+  background-color: $color-background;
+  border-radius: $border-radius-large;
+  @include flex-column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: $color-primary;
+}
+
+h3 {
+  color: $color-secondary;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+form[name='helpForm'] {
+  width: 400px;
+  height: 400px;
+  @include flex-column;
+  justify-content: space-evenly;
+
+  input,
+  textarea {
+    height: 30px;
+    border: none;
+    padding-left: 10px;
+    border-radius: $border-radius-small;
+
+    &:focus {
+      outline: 2px solid $color-primary;
+    }
+  }
+
+  textarea[name='userMessage'] {
+    height: 70px;
+    padding-top: 10px;
+  }
+
+  button {
+    height: 40px;
+    border: none;
+    color: $color-button-text;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: $border-radius-small;
+    background-color: $color-button;
+    outline: none !important;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+
+.red {
+  outline: 1px solid $color-error;
+}

@@ -1,3 +1,5 @@
+import './main.scss';
+
 'use strict';
 
 // 13.1. Валідація з RegEx
