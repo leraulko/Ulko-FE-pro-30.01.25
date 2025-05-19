@@ -1,0 +1,10 @@
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.emoji-btn {
+   font-size: x-large;
+}
