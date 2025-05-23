@@ -1,0 +1,61 @@
+[{
+        "id": 1,
+        "firstName": "Oleh",
+        "lastName": "Shevchenko",
+        "phone": "+380971234567"
+    },
+    {
+        "id": 2,
+        "firstName": "Anastasia",
+        "lastName": "Kovalchuk",
+        "phone": "+380501112233"
+    },
+    {
+        "id": 3,
+        "firstName": "Dmytro",
+        "lastName": "Melnyk",
+        "phone": "+380631234321"
+    },
+    {
+        "id": 4,
+        "firstName": "Iryna",
+        "lastName": "Sydorova",
+        "phone": "+380661234567"
+    },
+    {
+        "id": 5,
+        "firstName": "Maksym",
+        "lastName": "Bondarenko",
+        "phone": "+380931234567"
+    },
+    {
+        "id": 6,
+        "firstName": "Yuliia",
+        "lastName": "Kravets",
+        "phone": "+380991122334"
+    },
+    {
+        "id": 7,
+        "firstName": "Andrii",
+        "lastName": "Lytvyn",
+        "phone": "+380671234567"
+    },
+    {
+        "id": 8,
+        "firstName": "Olena",
+        "lastName": "Tkachenko",
+        "phone": "+380503334455"
+    },
+    {
+        "id": 9,
+        "firstName": "Vladyslav",
+        "lastName": "Polishchuk",
+        "phone": "+380681234567"
+    },
+    {
+        "id": 10,
+        "firstName": "Maryna",
+        "lastName": "Romanenko",
+        "phone": "+380991234567"
+    }
+]

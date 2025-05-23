@@ -1,0 +1,36 @@
+.table-grid {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.table-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1.5fr;
+    align-items: center;
+}
+
+.table-row > div {
+    padding: 10px;
+    border-right: 1px solid #555;
+}
+
+.table-row > div:last-child {
+    border-right: none;
+}
+
+.table-row:not(:last-child) {
+    border-bottom: 1px solid #555;
+}
+
+.table-row.header {
+    border-bottom: 1px solid white;
+    font-weight: bold;
+}
+
+.action-btns{
+   display: flex;
+   justify-content: space-evenly;
+}
